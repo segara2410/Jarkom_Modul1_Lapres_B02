@@ -3,7 +3,7 @@
 A.  **Display Filter**
 
 1.  **Sebutkan webserver yang digunakan pada
-    \"[testing.mekanis.me]{.ul}\"!**
+    \"[testing.mekanis.me]\"!**
 
 > **wireshark filter expression: http.host == \"testing.mekanis.me\"**
 >
@@ -26,7 +26,7 @@ A.  **Display Filter**
 > ![](.//media/image4.jpg)
 
 3.  **Cari username dan password ketika login di
-    \"[ppid.dpr.go.id]{.ul}\"!**
+    \"[ppid.dpr.go.id]\"!**
 
 > **wireshark filter expression: http.host contains \"ppid.dpr.go.id\"
 > && http.request.method == POST**
